@@ -10,4 +10,6 @@ ActionMailer::Base.smtp_setting = {
     :domain => 'monsite.fr',
     :adresse => 'smtp.sendgrid..net',
     :port => 587,
+    :authentication => :plain,
+    :enable_starttls_auto => true
 }
